@@ -1,0 +1,1 @@
+﻿(Invoke-AzVMRunCommand -ResourceGroupName "Your Resource Name" -VMName "Your VM Name" -CommandId "RunPowerShellScript" -ScriptPath "Your script Path").Value.Message
