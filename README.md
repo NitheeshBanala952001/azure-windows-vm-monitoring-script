@@ -1,5 +1,5 @@
 
-# Azure VM Monitoring Script
+# Azure Windows VM Monitoring Script
 
 This PowerShell script is designed to remotely execute a hardware monitoring script on an Azure Virtual Machine (VM) using the `Invoke-AzVMRunCommand` cmdlet. It gathers vital system health information such as CPU utilization, memory usage, and C: drive disk usage. The output is written to the console.
 
@@ -10,7 +10,6 @@ This PowerShell script is designed to remotely execute a hardware monitoring scr
 - [Usage](#usage)
 - [Script Details](#script-details)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ## Overview
 
